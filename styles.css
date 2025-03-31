@@ -58,7 +58,7 @@ p {
 }
 
 .medium-image {
-    width: 150px; /* Ajuste o tamanho conforme necessário */
+    width: 400px; /* Ajuste o tamanho conforme necessário */
     height: auto;
     margin: 0 10px; /* Espaço entre as imagens */
 }
