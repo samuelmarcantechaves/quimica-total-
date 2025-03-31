@@ -58,7 +58,7 @@ p {
 }
 
 .medium-image {
-    width: 300px; /* Ajuste o tamanho conforme necessário */
+    width: 300px; /* Aumenta o tamanho das imagens */
     height: auto;
     margin: 0 10px; /* Espaço entre as imagens */
 }
@@ -79,4 +79,10 @@ footer nav ul {
 
 footer nav ul li {
     display: inline;
-    margin: 0 15px
+    margin: 0 15px;
+}
+
+footer nav ul li a {
+    color: white;
+    text-decoration: none;
+}
