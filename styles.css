@@ -28,17 +28,10 @@ nav ul li a {
     text-decoration: none;
 }
 
-.container {
-    display: flex;
-    align-items: flex-start;
-    justify-content: space-between;
-    max-width: 1200px;
-    margin: 20px auto;
-}
-
 main {
     padding: 20px;
-    flex: 1;
+    max-width: 1200px;
+    margin: 20px auto;
     background: white;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -48,10 +41,26 @@ h1, h2 {
     margin: 0;
 }
 
-.side-image {
-    width: 200px; /* Ajuste o tamanho conforme necessário */
+h2 {
+    font-size: 1.8em; /* Aumenta o tamanho do título secundário */
+}
+
+p {
+    font-size: 1.2em; /* Aumenta o tamanho do texto */
+    line-height: 1.6; /* Aumenta o espaçamento entre as linhas */
+    margin-bottom: 15px; /* Adiciona espaço entre os parágrafos */
+}
+
+.image-container {
+    display: flex;
+    justify-content: center; /* Centraliza as imagens */
+    margin-top: 20px; /* Espaço acima das imagens */
+}
+
+.medium-image {
+    width: 150px; /* Ajuste o tamanho conforme necessário */
     height: auto;
-    margin: 0 10px;
+    margin: 0 10px; /* Espaço entre as imagens */
 }
 
 footer {
@@ -70,10 +79,4 @@ footer nav ul {
 
 footer nav ul li {
     display: inline;
-    margin: 0 15px;
-}
-
-footer nav ul li a {
-    color: white;
-    text-decoration: none;
-}
+    margin: 0 15px
