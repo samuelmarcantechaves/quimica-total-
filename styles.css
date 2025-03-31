@@ -1,46 +1,82 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <title>Química Total</title>
-</head>
-<body>
-    <header>
-        <h1>Química Total</h1>
-        <nav>
-            <ul>
-                <li><a href="#home">HOME</a></li>
-                <li><a href="#conteudos">CONTEÚDOS</a></li>
-                <li><a href="#exercicios">EXERCÍCIOS</a></li>
-            </ul>
-        </nav>
-    </header>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
 
-    <main>
-        <section id="home">
-            <h2>Bem-vindo ao nosso site Química Total!</h2>
-            <p>Olá! Somos Clara e Samuel, e criamos este espaço para te ajudar a entender tudo sobre as funções inorgânicas da química de um jeito simples e direto. Aqui, você vai encontrar explicações detalhadas, exemplos práticos e dicas para facilitar o aprendizado.</p>
-            <p>Seja você um estudante em busca de reforço ou apenas alguém curioso sobre o tema, este é o lugar certo. Vamos explorar juntos o mundo dos ácidos, bases, sais e óxidos!</p>
-            <p>Nosso objetivo é tornar o aprendizado de química acessível e interessante. Prepare-se para descobrir como a química está presente em nosso dia a dia e como ela pode ser fascinante!</p>
-        </section>
+header {
+    background: #007BFF;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
 
-        <div class="image-container">
-            <img src="imagem-esquerda.jpg" alt="Imagem Esquerda" class="medium-image">
-            <img src="imagem-direita.jpg" alt="Imagem Direita" class="medium-image">
-        </div>
-    </main>
+nav ul {
+    list-style: none;
+    padding: 0;
+}
 
-    <footer>
-        <nav>
-            <ul>
-                <li><a href="#home">HOME</a></li>
-                <li><a href="#conteudos">CONTEÚDOS</a></li>
-                <li><a href="#exercicios">EXERCÍCIOS</a></li>
-            </ul>
-        </nav>
-        <p>&copy; 2023 Química Total. Todos os direitos reservados.</p>
-    </footer>
-</body>
-</html>
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 20px auto;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    margin: 0;
+}
+
+h2 {
+    font-size: 1.8em; /* Aumenta o tamanho do título secundário */
+}
+
+p {
+    font-size: 1.2em; /* Aumenta o tamanho do texto */
+    line-height: 1.6; /* Aumenta o espaçamento entre as linhas */
+    margin-bottom: 15px; /* Adiciona espaço entre os parágrafos */
+}
+
+.image-container {
+    display: flex;
+    justify-content: center; /* Centraliza as imagens */
+    margin-top: 20px; /* Espaço acima das imagens */
+}
+
+.medium-image {
+    width: 150px; /* Ajuste o tamanho conforme necessário */
+    height: auto;
+    margin: 0 10px; /* Espaço entre as imagens */
+}
+
+footer {
+    background: #007BFF;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer nav ul {
+    margin: 0;
+}
+
+footer nav ul li {
+    display: inline;
+    margin: 0 15px
